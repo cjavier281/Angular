@@ -54,7 +54,7 @@ let usuarios = {
     Edad: 18
 };
 for (let ele in usuarios) {
-    console.table(usuarios);
+    console.table(usuarios.Gustos + "es");
 }
 usuarios.Gustos.push("sadasd");
 function leera(usuarios1, usuarios2) {
