@@ -75,12 +75,5 @@ function leera(usuarios1: any[], usuarios2?:number):void{
    
 }
 
-FGHFG
-function sumar(...valores:number[]) {
-  let suma=0;
-  for(let x=0;x<valores.length;x++)
-    suma+=valores[x];
-  return suma;
-}
 
 leera(usuarios.Gustos);
