@@ -10,3 +10,6 @@ for(let elem of arreglo  ){
 
     console.log(elem);
 }
+
+
+enum Operacionc {Suma, Resta, Multiplicacion, Division};
