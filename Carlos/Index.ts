@@ -34,3 +34,9 @@ enum Operacion {Suma, Resta, Multiplicacion, Division};
         break;
       }      
     }
+
+    let algo:any;
+  
+    algo=1;
+    algo=true;
+    algo="asdasd";
