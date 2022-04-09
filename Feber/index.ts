@@ -32,3 +32,8 @@ switch (actual) {
       break;
     }      
   }
+
+  let feber:any;
+  feber=3;
+  feber=false;
+  feber ="blablabla";
