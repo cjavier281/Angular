@@ -25,4 +25,3 @@ let carlos;
 carlos = 10;
 carlos = true;
 carlos = "ejejejej";
-GFHFGHFGHFGHFGHGFHGFHGFHFGHGFGHFGHHFG;
