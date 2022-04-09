@@ -37,3 +37,8 @@ switch (actual) {
   feber=3;
   feber=false;
   feber ="blablabla";
+
+  let carlos:any;
+  carlos=10;
+  carlos=true;
+  carlos ="ejejejej";
