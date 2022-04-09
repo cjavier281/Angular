@@ -62,7 +62,7 @@ let usuarios={
 };
 
 for(let ele in usuarios){
-
+  console.table(usuarios);
 }
 usuarios.Gustos.push("sadasd");
 
