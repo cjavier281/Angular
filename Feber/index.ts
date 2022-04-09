@@ -23,4 +23,4 @@ enum Operacions {Suma, Resta, Multiplicacion, Division};
   let carlos:any;
   carlos=10;
   carlos=true;
-  carlos ="ejejejej";
+  carlos ="ejejejej";GFHFGHFGHFGHFGHGFHGFHGFHFGHGFGHFGHHFG
