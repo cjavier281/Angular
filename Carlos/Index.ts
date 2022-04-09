@@ -12,4 +12,25 @@ for(let elem of arreglo  ){
 }
 
 
-enum Operacionc {Suma, Resta, Multiplicacion, Division};
+enum Operacion {Suma, Resta, Multiplicacion, Division};
+
+    let actual:number = Operacion.Division;
+
+    switch (actual) {
+      case Operacion.Suma: {
+        console.log('Operación actual: Suma ');
+        break;
+      }
+      case Operacion.Resta: {
+        console.log('Operación actual: Resta ');
+        break;
+      }
+      case Operacion.Multiplicacion: {
+        console.log('Operación actual: Multiplicacion ');
+        break;
+      }      
+      case Operacion.Division: {
+        console.log('Operación actual: Division ');
+        break;
+      }      
+    }
