@@ -1,2 +1,2 @@
 console.log("Algo");
-let edad:number=23;
+let edades:number=23;
