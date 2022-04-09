@@ -40,3 +40,39 @@ enum Operacion {Suma, Resta, Multiplicacion, Division};
     algo=1;
     algo=true;
     algo="asdasd";
+    
+
+
+let employee:any = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 25,
+    jobTitle: 'Web Developer'
+};
+
+
+for(let elem in employee  ){
+  console.log(employee[elem]);
+}
+
+let usuarios={
+  Nombre:"carlos",
+  Gustos:["peliculas","musica","futbol"],
+  Edad:18
+};
+
+for(let ele in usuarios){
+  console.log(usuarios[ele]);
+}
+usuarios.Gustos.push("sadasd");
+
+
+function leer(usuarios:any, usuarios2?:number):void{
+
+  usuarios.forEach(element => {
+    console.table(element);
+  });
+   
+}
+
+leer(usuarios.Gustos);

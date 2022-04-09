@@ -35,3 +35,31 @@ switch (actual) {
         break;
     }
 }
+var algo;
+algo = 1;
+algo = true;
+algo = "asdasd";
+var employee = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 25,
+    jobTitle: 'Web Developer'
+};
+for (var elem in employee) {
+    console.log(employee[elem]);
+}
+var usuarios = {
+    Nombre: "carlos",
+    Gustos: ["peliculas", "musica", "futbol"],
+    Edad: 18
+};
+for (var ele in usuarios) {
+    console.log(usuarios[ele]);
+}
+usuarios.Gustos.push("sadasd");
+function leer(usuarios, usuarios2) {
+    usuarios.forEach(function (element) {
+        console.table(element);
+    });
+}
+leer(usuarios.Gustos);
