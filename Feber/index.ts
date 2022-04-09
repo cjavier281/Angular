@@ -14,24 +14,6 @@ for(let numeros of rrecorrer ){
 enum Operacions {Suma, Resta, Multiplicacion, Division};
 
 
-switch (actual) {
-    case Operacions.Suma: {
-      console.log('Operación actual: Suma ');
-      break;
-    }
-    case Operacions.Resta: {
-      console.log('Operación actual: Resta ');
-      break;
-    }
-    case Operacions.Multiplicacion: {
-      console.log('Operación actual: Multiplicacion ');
-      break;
-    }      
-    case Operacions.Division: {
-      console.log('Operación actual: Division ');
-      break;
-    }      
-  }
 
   let feber:any;
   feber=3;
