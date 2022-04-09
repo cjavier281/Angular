@@ -1,11 +1,11 @@
-var edad = 23;
-var alturac = 1.92;
-var estudiosc = 'primarios';
-var activoc = true;
-var arreglo = [2, 3, 4, 5];
+"use strict";
+let edad = 23;
+let alturac = 1.92;
+let estudiosc = 'primarios';
+let activoc = true;
+let arreglo = [2, 3, 4, 5];
 arreglo.push(6);
-for (var _i = 0, arreglo_1 = arreglo; _i < arreglo_1.length; _i++) {
-    var elem = arreglo_1[_i];
+for (let elem of arreglo) {
     console.log(elem);
 }
 var Operacion;
@@ -16,7 +16,7 @@ var Operacion;
     Operacion[Operacion["Division"] = 3] = "Division";
 })(Operacion || (Operacion = {}));
 ;
-var actual = Operacion.Division;
+let actual = Operacion.Division;
 switch (actual) {
     case Operacion.Suma: {
         console.log('Operación actual: Suma ');
@@ -35,31 +35,36 @@ switch (actual) {
         break;
     }
 }
-var algo;
+let algo;
 algo = 1;
 algo = true;
 algo = "asdasd";
-var employee = {
+let employee = {
     firstName: 'John',
     lastName: 'Doe',
     age: 25,
     jobTitle: 'Web Developer'
 };
-for (var elem in employee) {
+for (let elem in employee) {
     console.log(employee[elem]);
 }
-var usuarios = {
+let usuarios = {
     Nombre: "carlos",
     Gustos: ["peliculas", "musica", "futbol"],
     Edad: 18
 };
-for (var ele in usuarios) {
-    console.log(usuarios[ele]);
+for (let ele in usuarios) {
 }
 usuarios.Gustos.push("sadasd");
-function leer(usuarios, usuarios2) {
-    usuarios.forEach(function (element) {
-        console.table(element);
+function leera(usuarios1, usuarios2) {
+    usuarios1.forEach(elem => {
+        console.table(elem);
     });
 }
-leer(usuarios.Gustos);
+function sumar(...valores) {
+    let suma = 0;
+    for (let x = 0; x < valores.length; x++)
+        suma += valores[x];
+    return suma;
+}
+leera(usuarios.Gustos);

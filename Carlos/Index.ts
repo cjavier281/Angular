@@ -62,17 +62,25 @@ let usuarios={
 };
 
 for(let ele in usuarios){
-  console.log(usuarios[ele]);
+
 }
 usuarios.Gustos.push("sadasd");
 
 
-function leer(usuarios:any, usuarios2?:number):void{
+function leera(usuarios1: any[], usuarios2?:number):void{
 
-  usuarios.forEach(element => {
-    console.table(element);
+  usuarios1.forEach(elem => {
+    console.table(elem);
   });
    
 }
 
-leer(usuarios.Gustos);
+
+function sumar(...valores:number[]) {
+  let suma=0;
+  for(let x=0;x<valores.length;x++)
+    suma+=valores[x];
+  return suma;
+}
+
+leera(usuarios.Gustos);
